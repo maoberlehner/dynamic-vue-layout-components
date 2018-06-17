@@ -1,5 +1,5 @@
 <template>
-  <layout-default-dynamic>
+  <layout name="LayoutDefault">
     <div class="Home">
       <h1>Home</h1>
       <p>
@@ -18,16 +18,16 @@
         amet.
       </p>
     </div>
-  </layout-default-dynamic>
+  </layout>
 </template>
 
 <script>
-import LayoutDefaultDynamic from '../layouts/LayoutDefaultDynamic';
+import Layout from '../layouts/Layout';
 
 export default {
   name: `Home`,
   components: {
-    LayoutDefaultDynamic,
+    Layout,
   },
 };
 </script>
