@@ -26,7 +26,7 @@
 import Layout from '../layouts/Layout';
 
 export default {
-  name: `Home`,
+  name: `About`,
   components: {
     Layout,
   },
