@@ -1,17 +1,12 @@
 <template>
-  <component :is="layout">
-    <router-view :layout.sync="layout"/>
+  <component :is="this.$route.meta.layout || 'div'">
+    <router-view/>
   </component>
 </template>
 
 <script>
 export default {
-  name: `App`,
-  data() {
-    return {
-      layout: `div`,
-    };
-  },
+  name: `App`
 };
 </script>
 

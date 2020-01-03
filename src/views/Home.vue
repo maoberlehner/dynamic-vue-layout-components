@@ -1,5 +1,4 @@
 <template>
-  <layout name="LayoutDefault">
     <div class="Home">
       <h1>Home</h1>
       <p>
@@ -18,16 +17,10 @@
         amet.
       </p>
     </div>
-  </layout>
 </template>
 
 <script>
-import Layout from '../layouts/Layout';
-
 export default {
-  name: `Home`,
-  components: {
-    Layout,
-  },
+  name: `Home`
 };
 </script>
