@@ -28,6 +28,7 @@ export default {
   created() {
     // Simulate fetching user data.
     setTimeout(() => {
+      console.log('Fetching data')
       this.user = { name: `John Doe` };
     }, 2000);
   },
